@@ -1,5 +1,6 @@
 package cn.luckyneko.interchat;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,6 +13,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LuckyInterchatWebApplication {
     public static void main(String[] args) {
-        SpringApplication.run(LuckyInterchatWebApplication.class);
+        SpringApplication.run(LuckyInterchatWebApplication.class, args);
     }
 }
